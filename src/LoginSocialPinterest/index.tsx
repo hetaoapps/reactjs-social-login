@@ -25,7 +25,7 @@ interface Props {
 
 const PINTEREST_URL: string = 'https://www.pinterest.com/oauth';
 const PINTEREST_URL_API: string = 'https://api.pinterest.com/v5';
-const PREVENT_CORS_URL: string = 'https://cors.bridged.cc';
+const PREVENT_CORS_URL: string = process.env.PREVENT_CORS_URL || 'https://cors.bridged.cc';
 
 export const LoginSocialPinterest = ({
   state = '',

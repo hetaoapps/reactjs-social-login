@@ -27,7 +27,7 @@ interface Props {
 
 const TWITTER_URL: string = 'https://twitter.com';
 const TWITTER_API_URL: string = 'https://api.twitter.com';
-const PREVENT_CORS_URL: string = 'https://cors.bridged.cc';
+const PREVENT_CORS_URL: string = process.env.PREVENT_CORS_URL || 'https://cors.bridged.cc';
 
 export const LoginSocialTwitter = ({
   client_id,

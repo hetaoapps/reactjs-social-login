@@ -34,7 +34,7 @@ interface Props {
 // const JS_SRC = 'https://apis.google.com/js/api.js'
 const JS_SRC = 'https://accounts.google.com/gsi/client';
 const SCRIPT_ID = 'google-login';
-const PREVENT_CORS_URL: string = 'https://cors.bridged.cc';
+const PREVENT_CORS_URL: string = process.env.PREVENT_CORS_URL || 'https://cors.bridged.cc';
 const _window = window as any;
 
 const LoginSocialGoogle = ({
