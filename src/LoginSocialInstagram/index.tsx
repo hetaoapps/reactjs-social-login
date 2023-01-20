@@ -28,7 +28,7 @@ interface Props {
 
 const INSTAGRAM_URL = 'https://api.instagram.com';
 const INSTAGRAM_API_URL = 'https://graph.instagram.com/';
-const PREVENT_CORS_URL: string = process.env.PREVENT_CORS_URL || 'https://cors.bridged.cc';
+const PREVENT_CORS_URL: string = process.env.REACT_APP_PREVENT_CORS_URL || 'https://cors.bridged.cc';
 
 export const LoginSocialInstagram = ({
   state = '',

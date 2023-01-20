@@ -27,7 +27,7 @@ interface Props {
 
 const GITHUB_URL: string = 'https://github.com';
 const GITHUB_API_URL: string = 'https://api.github.com/';
-const PREVENT_CORS_URL: string = process.env.PREVENT_CORS_URL || 'https://cors.bridged.cc';
+const PREVENT_CORS_URL: string = process.env.REACT_APP_PREVENT_CORS_URL || 'https://cors.bridged.cc';
 
 export const LoginSocialGithub = ({
   state = '',

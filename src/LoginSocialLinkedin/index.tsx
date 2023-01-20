@@ -26,7 +26,7 @@ interface Props {
 
 const LINKEDIN_URL: string = 'https://www.linkedin.com/oauth/v2';
 const LINKEDIN_API_URL: string = 'https://api.linkedin.com';
-const PREVENT_CORS_URL: string = process.env.PREVENT_CORS_URL || 'https://cors.bridged.cc';
+const PREVENT_CORS_URL: string = process.env.REACT_APP_PREVENT_CORS_URL || 'https://cors.bridged.cc';
 
 export const LoginSocialLinkedin = ({
   state = '',

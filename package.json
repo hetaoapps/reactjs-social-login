@@ -1,6 +1,6 @@
 {
-  "name": "reactjs-social-login",
-  "version": "2.6.1",
+  "name": "jungler-reactjs-social-login",
+  "version": "2.6.3",
   "description": "Group social login for ReactJS",
   "author": "Connor Wang",
   "license": "MIT",
